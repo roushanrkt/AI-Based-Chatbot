@@ -1,0 +1,171 @@
+{"intents": [
+ 
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Thank"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "introduction",
+     "patterns": ["Who are you?", "What are you?", "Who am I talking to?", "Who am I speaking with ?", "Who is this ?", "What is your name ?",
+                  "What should I call you", "What are you called ?"],
+     "responses": ["I'm Emilly, your bot assistant", "I'm Emilly, an Artificial Intelligence bot"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "Can you help?", "What can you do for me?", "I need support", "I need a help", "support me please", "I require assistance"],
+    "responses": ["Tell me, how can I assist you", "Tell me your problem, so that I can assist you", "Yes Sure, how can I help?"]
+    },
+    
+    {"tag": "suggestions",
+    "patterns": ["I have a suggestion", "I want to raise a complaint", "there is a suggestion about a service", "Where can I leave feedback", "I have some feedback",
+	"feedback", "suggestions", "I want to provide a suggestion", "I want to provide some feedback"],
+    "responses": ["Please provide us your suggestion. Our email id is cdac.patna@cdac.in"]
+    },
+    {"tag": "courses",
+	"patterns":["what are the courses offered","which are the best courses offered","courses offered at cdac patna", "courses available", "what courses can I enroll", 
+             "list of courses", "can you give a course list", "what courses are done here", "what classed can I take here", "avaiable classes I can take"],
+	"responses":["Following are the lists of courses offered by us i. Machine Learning   ii. Datascience   iii. Artificial Intelligence    iv.IOT    Please follow this link to know more https://www.cdac.in/index.aspx?id=patna "]
+	},
+	{"tag": "activecourses" ,
+	"patterns":["what are the current active courses offered","I want to know about current active courses","current courses availabale","forthcoming courses", "upcoming courses",
+             "what courses are going on", "what are the courses I can currently take", "current courses", "live courses", "what courses are live", "are any courses live"],
+	"responses":["CDAC Patna offers courses in the following domain  AI | IoT | Cyber Security | Cyber Forensic | Data Analytics..   please follow the given link https://www.cdac.in/index.aspx?id=patna for more info"]
+
+	},
+		{"tag": "internships",
+	"patterns": ["what are the fields in which internship is available at cdac patna","Internship details at CDAC Patna", "can I do internship here?", 
+	"internship opportunities at CDAC patna", "internship is at cdac ?", "is internship at cdac?", "any internships available ?"],
+	"responses": ["CDAC offers internship in saveral domain please follow this link for more details https://cdac.in/index.aspx?id=edu_ftp_formal_training_programmes"]
+	},
+	{"tag": "course_enquiry",
+	"patterns": ["How to get enrolled in a course","How do I search for a course","How to start a course", "Directions to register for a course", "How to register for a course ?",
+	"How do I apply for a course ?", "I have doubts about a course", "can you tell me to enroll in course", "How to get into course ?"],
+	"responses": ["To start a CDAC course please do the following: > Register for the course on  the website of the CDAC by following the guidelines for more details go to https://www.cdac.in/index.aspx?id=patna"]
+	},
+	    {"tag": "webinar",
+  "patterns":["tell me about current webinar at cdac patna","upcoming webinars","topics of webinar peovided by cdac patna", "webinars","are there any webinars ?",
+              "what webinars are there","Is there going to be a webinar", "will there be a webinar", "is webinar there"],
+  "responses":["C-DAC Patna is providing free webinars, please follow the link to know more about the same:  https://patna.cdac.in/media/pdf_file/schedule.pdf"]		
+  },
+  	    {"tag": "workculture",
+  "patterns":["tell me about work culture at cdac patna","work environment at CDAC Patna","work environment at cdac patna", "employee culture at CDAC Patna", 
+              "Environment for employees at CDAC Patna", "Treatment of employees at cdac", "curlture at cdac"],
+  "responses":["CDAC Patna is an employee friendly environment which encourages projects, research and collaborations. Know more about work culture at this link https://www.cdac.in/index.aspx?id=patna"]		
+  },
+  
+  {"tag": "about",
+  "patterns":["tell me about cdac patna","Can you give an overview about cdac patna","brief information about cdac","what is cdac", "information about CDAC", 
+  "some facts about CDAC"],
+  "responses":["CDAC established its 12th R&D center at Patna in March 2020, it encompasses the latest technologies in domains of AI, Information and Cyber Security, IoT . For more details please follow the link  https://www.cdac.in/index.aspx?id=patna"]		
+  },
+   
+    {"tag":"employees",
+    "patterns":["total number of employees at cdac","strength of employee at cdac"],
+    "responses":["Approximately there are 50 employees currently working at cdac patna"]
+    },
+       {"tag":"supercomputer",
+    "patterns":["Who can access PARAM Budhha","Features of PARAM Budhha","Information about PARAM Budhha","Who can access the supercomputer",
+                "Information about supercomputer","supercomputer","tell me about the supercomputer", "what is the soopercomputer", "what is the cdac supercomputer",
+                "cdac supercomputer", "Information on cdac supercomputer", "what is supercomputer ?", "what soopercomputer ?", "supercomputer of cdac", "param of cdac"],
+    "responses":["PARAM Budhha is a supercomputer which will be oriented towards individuals and institutes whether it be for PhD , work for a startUp or general research "]
+    },
+       {"tag":"initiatives",
+    "patterns":["What are the initiatives taken by CDAC Patna","list of initiatives taken by CDAC Patna","initiatives taken"],
+    "responses":["Following are the field in which we are providing our services  * AI Computing | Information and Cyber Security | Digital forensics | IoT and Embedded Systems | Quality Assurance and Software Testing"]
+    },
+      {"tag":"collaboration",
+    "patterns":["who are the collaborators of CDAC Patna","which are the organizations collaborated with CDAC Patna","collaborators", "does cdac collaborate ?", 
+                "collaborators of cdac", "who collaborates with cdac", "who does cdac collaborate with ?"],
+    "responses":["These are the organizations and peoples with whom we have collaborated ...."]
+    },
+        {"tag":"supercomputer_timeline",
+    "patterns":["what is the timeline of supercomputer","timeline of PARAM Budhha","timeline of supercomputer"],
+    "responses":["For details about timeline of PARAM Budhha follow this link...... "]
+    },
+        {"tag":"domain",
+    "patterns":["what are the fields in which CDAC is contributing","what are the works that CDAC Patna is facilitating","What are the things that cdac can do for me",
+                "what sector or domain of AI our facility will empower", "What domain does CDAC work in", "What are main areas where CDAC contributes", 
+                "what area does CDAC work in", "What are the domains in which CDAC is involved with", "cdac area of interest", "area of interest of cdac" ],
+    "responses":["CDAC is working in following fields Research and Development, AI for Health, AI for Mobility, Open Source AI, Conversational AI, Role of DL in Big Data Analytics, Responsible AI for more please follow this link https://www.cdac.in/index.aspx?id=research and for info about product and services provided by CDAC go to this link https://www.cdac.in/index.aspx?id=products_services"]
+    },
+       {"tag":"user_domain",
+    "patterns":["What things I can do","what are the things that user can do on the supercomputer","things that we can do on supercomputer", 
+                "How can we use the supercomputer", "How can te supercomputer be used"],
+    "responses":[" Training of your Models, Testing, Research and Deployment"]
+    },
+    
+      {"tag":"option_use",
+    "patterns":["option1","Option1"],
+    "responses":["PhD Scholar,StartUp,Research Institute       and Individual"]
+    },
+           {"tag":"option_sector",
+    "patterns":["option2","Option2"],
+    "responses":[" AI for Health, AI for Mobility, Open              Source AI,Conversational AI, Role of            DL in Big Data Analytics,Responsible           AI"]
+    },
+    {"tag":"option_available",
+    "patterns":["option3","Option3"],
+    "responses":[" Training of your Models, Testing,Research , Deployment"]
+    },
+     {"tag":"option_configuration",
+    "patterns":["option4","Option4"],
+    "responses":[" PARAM Budhha  a supercomputer                providing AI system, delivering 5                 petaflops of AI performance and              consolidating the power and capabilities of an entire data center into a single flexible platform."]
+    },
+	
+    {"tag":"AI",
+    "patterns":["works in field of AI","AI related work at cdac","something related to AI", "work done by CDAC in AI", "what has cdac done in AI"],
+    "responses":[" In the field of AI CDAC is working on AI for Health, AI for Mobility, Open Source AI,Conversational AI and Responsible AI. To know more details please follow this link........."]
+    },
+     {"tag":"IOT",
+    "patterns":["what are the domain in field of IOT","IOT related work at cdac","on what topic of IOT cdac is working"],
+    "responses":["In the field of IoT CDAC is working on  1.Architectures of IoT services    2.IoT application areas, IoT and M2M    3.Tools and technologies for IoT services    4.Business models for IoT applications       5.Energy optimization in IoT        6.Modeling and simulation of IoT applications;."]
+    },
+     {"tag":"cyber_security",
+    "patterns":["what are the fields in cyber security that cdac is working on","cyber security fields"],
+    "responses":[" In the field of Cyber security we are working on Organizational security management and policy, Internet of Things privacy and security, Software and computer security."]
+    },
+     {"tag":"cyber_forensic",
+    "patterns":["details of cyber forensic research at cdac patna","what are the research area for cyber forensic in cdac "],
+    "responses":[" Following are the research area of cdac in field of cyber forensic Digital Forensics Tools.  Forensics Investigative Process. Forensic Standardization. Criminal Data Mining.        Network Analysis.        Malware Forensics.          Computer Forensics.        Network Forensics.."]
+    },
+     {"tag":"data_analytics",
+    "patterns":["something about data analyics","data analytics at cdac","details about data analytics", "what does data analytics mean"],
+    "responses":[" Following are the research area of cdac in field of data_analytics 1.Scientific understanding of learning, especially deep learning algorithms 2.Causal reasoning 3.Precious data. 4.Inferring from noisy and/or incomplete data for more details please follow the link...."]
+    },
+   {"tag":"research_area",
+    "patterns":["option of research area at cdac","what are the research area available at cdac", "what does cdac do research on", "does cdac do research", 
+                "what does cdac do research in ?", "what areas does cdac research ?", "research avenues of cdac patna"],
+    "responses":["CDAC is working in following fields    1.Research and Development, AI for Health, AI for Mobility, Open Source AI,Conversational AI, Role of DL in Big Data Analytics,Responsible AI. For more please prefer this link https://www.cdac.in/index.aspx?id=research and for info about product and services provided by CDAC go to this link https://www.cdac.in/index.aspx?id=products_services"]
+    },
+    {"tag":"products",
+    "patterns":["what are the product and services provided by cdac","what are the products and services offered by cdac", "Product offerings of CDAC Patna", 
+	"What products does CDAC Patna provide ?", "services by cdac", "products by cdac", "products and services offered by cdac"],
+    "responses":["Following products and services are offerd by cdac  1.High Performance, Grid and Cloud Computing (HGCC) 2.Multilingual Computing & Heritage Computing 3.Professional Electronics, VLSI & Embedded Systems 4.Software Technologies including FOSS 5. Cyber Security 6. Health Informatics 7.Education & Training. For more details follow https://www.cdac.in/index.aspx?id=products_services"]
+    },
+    {"tag":"capacity_building",
+    "patterns":["details of capacity building of cdac patna","what are the capacity building decisions taken so far", "recent work done by cdac patna", 
+                "what is new in cdac", "recent developments in cdac", "new development in cdac", "new and recent developments in cdac", "current projects at cdac",
+                "new projects at cdac", "ongoing projects at cdac", "is cdac doing any new projects ?"],
+    "responses":[" In terms of recent development at cdac patna we will be starting to provide facility of Supercomputer to the general public. For capacity building we focus on:  1.Institutionnal arrangement     2. Leadership      3. Knowledge         4. Accountability"]
+    },
+    
+    
+      {"tag":"configuration_supercomputer",
+    "patterns":["What is the configuration of the supercomputer","can you describe the configuration of the supercomputer", "specs of the supercomuter",
+	"general information about the supercomupter", "hardware details about the supercomputer", "what supercomputer does cdac have ?", "cdac soppercomputer features",
+  "what is the hardware of cdac superomputer"],
+    "responses":["Supercomputer configuration will be providing 05 petaflops of computing power specialising in Artificial Intelligence"]
+    },
+    
+       {"tag":"default",
+    "patterns":[" ",""],
+    "responses":["Please rephrase, ask any other question or please choose one of the options below according to your requirement:"]
+    }
+
+]
+}
